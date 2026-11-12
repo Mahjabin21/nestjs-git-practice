@@ -10,4 +10,7 @@ export class Student {
 
   @Column({ unique: true })
   email: string;
+
+  @Column()
+  phoneNumber: number;
 }
