@@ -8,4 +8,8 @@ export class UpdateStudentDto {
   @IsOptional()
   @IsEmail()
   email?: string;
+
+  @IsOptional()
+  @IsString()
+  phoneNumber?: string;
 }
